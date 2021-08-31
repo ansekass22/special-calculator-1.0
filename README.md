@@ -5,6 +5,7 @@ This program is not a common pocket calculator but rather some kind of "special"
 - Tetrahedral numbers (Te(n) = T(1)+...+T(n), also calculated iteratively instead of existing formula Te(n)=n(n+1)(n+2)/6)
 - Fibonacci numbers
 - Coefficients of Pascal's triangle
+- prime numbers (calculator finds out if the given number is prime or not and also presents the primes before the number)
 - Factorials of a number (not iterative)
  
 Version 1.0 contains only the main program and modules for operations but in later versions I am going to have a system that saves calculations into the files for later use.
