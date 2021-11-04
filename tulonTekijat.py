@@ -1,4 +1,4 @@
-"Moduuli kokonaisluvun tekijöiden laskemiseksi"
+# Moduuli kokonaisluvun tekijöiden laskemiseksi
 def tekijaLaskuri(n):
     tekijat = [1]
     if n == 0:
