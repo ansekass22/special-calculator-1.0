@@ -1,7 +1,6 @@
-'''
-Laskuri, joka laskee Pascalin kertoimet tietyn asteen funktiolle
-(asteluku = Pascalin kolmion kerros)
-'''
+# Laskuri, joka laskee Pascalin kertoimet tietyn asteen funktiolle
+# (asteluku = Pascalin kolmion kerros)
+
 def pascalCoeff(aste):
     if (aste == 0):
         return [1]
@@ -21,8 +20,7 @@ def pascalCoeff(aste):
             #print("uudet: ", uudet)
             i += 1
         return kertoimet
-'''
-print("Lasketaan Pascalin kertoimet.")
-luku = int(input("Anna asteluku: "))
-print("Pascalin kertoimet ovat: ", *pascalCoeff(luku))
-'''
+
+#print("Lasketaan Pascalin kertoimet.")
+#luku = int(input("Anna asteluku: "))
+#print("Pascalin kertoimet ovat: ", *pascalCoeff(luku))
