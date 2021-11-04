@@ -1,8 +1,8 @@
-'''
- Funktio, joka tarkistaa, onko sille annettu luku alkuluku edellisten
- alkulukujen perusteella, tulostaa vastauksen, edelliset alkuluvut
- sekä niiden määrän.
-'''
+
+# Funktio, joka tarkistaa, onko sille annettu luku alkuluku edellisten
+# alkulukujen perusteella, tulostaa vastauksen, edelliset alkuluvut
+# sekä niiden määrän.
+
 def onko_alkuluku(k,alkuluvut):
     on_alkuluku = True
     i = 0
@@ -37,9 +37,8 @@ def alkulukuTulokset(luku):
         else:
             tulos = str(luku)+" ei ole alkuluku; pi(" + str(luku) + ")=" + str(len(Alkuluvut)) + "; edell. alkuluvut: " + str(Alkuluvut)
     return tulos
-"""        
-print("Tervetuloa alkulukulaskuriin.")
+        
+#print("Tervetuloa alkulukulaskuriin.")
 
-luku = int(input("Anna luku: "))
-print(alkulukuTulokset(luku))
-"""
+#luku = int(input("Anna luku: "))
+#print(alkulukuTulokset(luku))
